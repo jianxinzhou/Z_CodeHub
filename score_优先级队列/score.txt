@@ -1,0 +1,7 @@
+1 zhangsan 88
+2 lisi 99
+12 wangwu 67
+13 chenliu 59
+14 qianqi 59
+15 tianba 0
+
