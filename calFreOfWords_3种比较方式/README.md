@@ -4,8 +4,8 @@
 
 时间复杂度指添加dict的复杂度。
 
-a)	vector<pair<string, int> >  vector<string> 30403ms 7ms              时间复杂度 n方
+a)	vector<pair<string, int> >  vector<string> ： 30403ms 7ms              时间复杂度 n方
 
-b)	map<string, int> set<string> 1221ms  10ms                           时间复杂度 nlogn
+b)	map<string, int> set<string> ：1221ms  10ms                            时间复杂度 nlogn
 
-c)	unordered_map<string, int> unordered_set<string> 598ms 9ms          时间复杂度 常量
+c)	unordered_map<string, int> unordered_set<string> ： 598ms 9ms          时间复杂度 常量
