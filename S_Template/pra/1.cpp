@@ -6,6 +6,7 @@ using namespace std;
 template <typename T>
 void print(const T &t)
 {
+    // 注意不要遗漏 typename
     for(typename T::const_iterator it = t.begin();
         it != t.end();
         ++it)
