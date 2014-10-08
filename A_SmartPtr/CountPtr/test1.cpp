@@ -37,3 +37,17 @@ int main(int argc, char const *argv[])
     assert(!ptr.unique());
     return 0;
 }
+
+
+
+/*
+Output:
+
+Test
+1
+2
+3
+ptr is not NULL
+~Test
+
+*/

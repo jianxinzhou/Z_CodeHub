@@ -28,3 +28,14 @@ int main(int argc, char const *argv[])
 
     return 0;
 }
+
+
+/*
+Output:
+
+Test
+count = 2
+~Test
+
+*/
+
