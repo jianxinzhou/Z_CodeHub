@@ -39,11 +39,11 @@
   
 7 C++11引进了右值引用，其带来的变化主要是：移动语义（move semantics）和 完美转发（perfect forward）。
 
-8 参数接收情况             
-  a)  const X&可以接受所有的参数。             
-  b)	X&只可以接收非const左值。                
-  c)	X&&只可以接收非const右值。
-  d)	const X&&可以接受右值。           
+8 参数接收情况                             
+  a)  const X&可以接受所有的参数。                          
+  b)	X&只可以接收非const左值。                             
+  c)	X&&只可以接收非const右值。               
+  d)	const X&&可以接受右值。                             
   
   当提供了四个重载版本时，             
   one（非const左值）选择X&，
@@ -53,12 +53,12 @@
 
 9 只有X&&类型（非常量右值）的变量可以被移动（move）
 
-10 当提供如下三个版本的重载时，
-   a)	void test(const string &s) 常量语义              
-   b)	void test(string &s)       修改语义             
-   c)	void test(string &&s)      移动语义            
+10 当提供如下三个版本的重载时，                   
+   a)	void test(const string &s) 常量语义                             
+   b)	void test(string &s)       修改语义                             
+   c)	void test(string &&s)      移动语义                              
   
-   对于函数重载决议而言，            
+   对于函数重载决议而言，                                       
    第一个可以接受const左值和const右值。              
    第二个接受非const左值，              
    而最后一个接受非const右值。              
