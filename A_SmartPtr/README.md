@@ -44,4 +44,4 @@
    }      
    CounterPtr<Test> ptr1(make_ptr());  
 
-10. c++11中使用智能指针加上头文件 #include<memory>    
+10. c++11中使用智能指针需要加上头文件 memory    
